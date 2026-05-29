@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next { height: 100%; }
+
+body {
+  @apply bg-white text-gray-900;
+  font-family: 'Livvic', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+/* Theme tokens */
+:root {
+  --color-primary: #0B63F6;
+}
+
+.btn-primary {
+  @apply bg-primary text-white px-4 py-2 rounded-md;
+}
